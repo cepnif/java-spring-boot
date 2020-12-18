@@ -8,7 +8,7 @@ public class MyAppRunner {
         FullTimeMentor fullTimeMentor = new FullTimeMentor();
         PartTimeMentor partTimeMentor = new PartTimeMentor();
 
-        MentorAccount mentorAccount = new MentorAccount(fullTimeMentor);
+        MentorAccount mentorAccount = new MentorAccount(partTimeMentor);
         mentorAccount.manageMentor();
     }
 }
