@@ -4,8 +4,11 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         https://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="java" class="com.finctyltd.services.Java"></bean>
+    <bean id="java" class="com.finctyltd.services.Java">
+        <constructor-arg ref="officeHours"/></bean>
 
     <bean id="selenium" class="com.finctyltd.services.Selenium" ></bean>
+    <bean id="officeHours" class="com.finctyltd.services.OfficeHours" ></bean>
+
 
 </beans>
