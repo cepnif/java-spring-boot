@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/10-Qualifier-Annotation/pom.xml" />
         <option value="$PROJECT_DIR$/11-Value-Annotation/pom.xml" />
         <option value="$PROJECT_DIR$/12-JavaCode-Configuration/pom.xml" />
+        <option value="$PROJECT_DIR$/13-JavaCode-PostConstruct-PreDestroy/pom.xml" />
       </list>
     </option>
   </component>
