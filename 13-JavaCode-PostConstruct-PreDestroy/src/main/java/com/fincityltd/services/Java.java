@@ -1,6 +1,7 @@
 package com.fincityltd.services;
 
 import com.fincityltd.interfaces.Course;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
@@ -22,6 +23,5 @@ public class Java implements Course {
     public void preDestroy(){
         System.out.println("PreDestroy is executed");
     }
-
 
 }
