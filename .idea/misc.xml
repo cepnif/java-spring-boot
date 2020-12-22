@@ -5,6 +5,13 @@
       <list>
         <option value="$PROJECT_DIR$/03-Spring-Container/pom.xml" />
         <option value="$PROJECT_DIR$/04-Constructor-Injection/pom.xml" />
+        <option value="$PROJECT_DIR$/05-Setter-Injection/pom.xml" />
+        <option value="$PROJECT_DIR$/06-Singleton-Prototype/pom.xml" />
+        <option value="$PROJECT_DIR$/07-Init-Destroy/pom.xml" />
+        <option value="$PROJECT_DIR$/08-Component-Annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/09-Autowired-Annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/10-Qualifier-Annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/11-Value-Annotation/pom.xml" />
       </list>
     </option>
   </component>
