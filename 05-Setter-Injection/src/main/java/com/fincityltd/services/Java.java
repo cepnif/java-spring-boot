@@ -1,14 +1,14 @@
 package com.fincityltd.services;
 
 import com.fincityltd.interfaces.Course;
+import lombok.Getter;
+import lombok.Setter;
 
+@Getter
+@Setter
 public class Java implements Course {
 
-    OfficeHours officeHours;
-
-    public Java(OfficeHours officeHours) {
-        this.officeHours = officeHours;
-    }
+    private OfficeHours officeHours;
 
     @Override
     public void getTeachingHours() {
