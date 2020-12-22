@@ -1,4 +1,4 @@
-package com.finctyltd.interfaces;
+package com.fincityltd.interfaces;
 
 public interface ExtraSessions {
     int getHours();

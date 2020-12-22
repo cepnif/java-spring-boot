@@ -1,6 +1,6 @@
-package com.finctyltd.services;
+package com.fincityltd.services;
 
-import com.finctyltd.interfaces.Course;
+import com.fincityltd.interfaces.Course;
 
 public class Java implements Course {
 
