@@ -15,6 +15,7 @@
         <option value="$PROJECT_DIR$/12-JavaCode-Configuration/pom.xml" />
         <option value="$PROJECT_DIR$/13-JavaCode-PostConstruct-PreDestroy/pom.xml" />
         <option value="$PROJECT_DIR$/14-SpringBoot/pom.xml" />
+        <option value="$PROJECT_DIR$/15-MVC-Controller/pom.xml" />
       </list>
     </option>
   </component>
