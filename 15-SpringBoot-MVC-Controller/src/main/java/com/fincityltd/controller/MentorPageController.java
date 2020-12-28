@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class MentorPageController {
     @GetMapping("/show")
     public String showForm(){
+        System.out.println("#### Mentor page showForm is executed ####");
         return "mentorPage";
     }
 }
