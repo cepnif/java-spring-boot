@@ -27,5 +27,8 @@ Welcome to student home page
     <li th:each="number:${numbers}" th:text="${number}"></li>
 </ul>
 
+<div th:replace="fragments/footer::footer">
+
+</div>
 </body>
 </html>
