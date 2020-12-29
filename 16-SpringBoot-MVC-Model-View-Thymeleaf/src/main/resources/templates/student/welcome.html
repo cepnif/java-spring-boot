@@ -23,7 +23,9 @@ Welcome to student home page
 <a th:href="@{/student/welcome(id=53)}">Link 1</a>
 <a th:href="@{/student/welcome(id=${student.id})}">Link 2</a>
 
-
+<ul>
+    <li th:each="number:${numbers}" th:text="${number}"></li>
+</ul>
 
 </body>
 </html>
