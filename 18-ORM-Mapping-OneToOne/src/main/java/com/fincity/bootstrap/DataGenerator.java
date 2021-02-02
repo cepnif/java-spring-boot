@@ -2,13 +2,12 @@ package com.fincity.bootstrap;
 
 import com.fincity.entity.Department;
 import com.fincity.entity.Employee;
+import com.fincity.entity.Region;
 import com.fincity.enums.Gender;
-import com.fincity.repository.DepartmentRepository;
 import com.fincity.repository.EmployeeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
-
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -43,6 +42,18 @@ public class DataGenerator implements CommandLineRunner {
         e3.setDepartment(d3);
         e4.setDepartment(d4);
         e5.setDepartment(d5);
+
+        Region r1 = new Region("Southwest","United States");
+        Region r2 = new Region("Central","United States");
+        Region r3 = new Region("Northwest","United States");
+        Region r4 = new Region("Quebec","Canada");
+        Region r5 = new Region("Central","Asia");
+
+        e1.setRegion(r1);
+        e2.setRegion(r2);
+        e3.setRegion(r3);
+        e4.setRegion(r4);
+        e5.setRegion(r5);
 
         employeeList.addAll(Arrays.asList(e1,e2,e3,e4,e5));
         departmentList.addAll(Arrays.asList(d1,d2,d3,d4,d5));

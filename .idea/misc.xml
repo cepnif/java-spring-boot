@@ -16,10 +16,15 @@
         <option value="$PROJECT_DIR$/13-JavaCode-PostConstruct-PreDestroy/pom.xml" />
         <option value="$PROJECT_DIR$/14-SpringBoot/pom.xml" />
         <option value="$PROJECT_DIR$/15-MVC-Controller/pom.xml" />
+        <option value="$PROJECT_DIR$/15-SpringBoot-MVC-Controller/pom.xml" />
+        <option value="$PROJECT_DIR$/16-SpringBoot-MVC-Model/pom.xml" />
+        <option value="$PROJECT_DIR$/17-ORM-Table-Creation/pom.xml" />
+        <option value="$PROJECT_DIR$/18-ORM-Mapping-OneToOne/pom.xml" />
+        <option value="$PROJECT_DIR$/19-REST-HttpVerbs-Legacy/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_15" default="false" project-jdk-name="15" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_15" project-jdk-name="15" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
