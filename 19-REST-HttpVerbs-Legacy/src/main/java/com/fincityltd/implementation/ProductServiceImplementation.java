@@ -3,9 +3,11 @@ package com.fincityltd.implementation;
 import com.fincityltd.entity.Product;
 import com.fincityltd.repository.ProductRepository;
 import com.fincityltd.service.ProductService;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class ProductServiceImplementation implements ProductService {
 
 
